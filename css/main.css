@@ -66,7 +66,22 @@ html, body {
   height: 100%;
 }
 
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+section {
+  width: 100%;
+}
+
+.wrapper {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .background {
+  position: relative;
   background-image: -webkit-gradient(linear, left top, left bottom, from(#f48d81), to(#fbe389));
   background-image: linear-gradient(#f48d81, #fbe389);
   height: 1000px;
@@ -74,8 +89,49 @@ html, body {
   opacity: 70%;
 }
 
-.background img {
-  height: 1000px;
-  width: 1920px;
+.background .eagle {
+  position: absolute;
+  max-height: 1000px;
+  height: 100%;
+  max-width: 1920px;
+  width: 100%;
   opacity: 30%;
+}
+
+.background .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.background .wrapper .logo {
+  z-index: 2;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+.background .wrapper ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 2;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+.background .wrapper .imagens div {
+  float: left;
+  margin-right: 5px;
+}
+
+.background .wrapper .imagens div .img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
 }
