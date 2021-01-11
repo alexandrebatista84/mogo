@@ -1,25 +1,25 @@
 .background{
 	position: relative;
-
-	background-image: linear-gradient(#f48d81, #fbe389);
-
-	max-width: 1777px;
-	max-height: 1000px;
+	width: auto;
 	height: 100%;
 	margin: auto;
 	
-
 	.eagle{
 		position: absolute;
-		width: 100%;
-		height: auto;
-		opacity: 30%;
+		max-width: 1920px;
+		max-height: 1000px;
+		width: auto;
+		height: 100%;
+		left: 50%;
+  		transform: translate(-50%, 0%);
+		
 	}
 	
 	.wrapper{
 		display: flex;
 		justify-content: space-between;
-
+		background-color: red;
+		
 		.logo{
 			z-index:2;
 			font-family: $primary-font;
@@ -43,7 +43,7 @@
 		}
 		
 		.imagens{
-			
+			z-index:2;
 			div{
 				margin-top: 50px;
 				margin-left: 35px;
