@@ -1,0 +1,89 @@
+.story{
+	
+	margin-top: 100px;
+	.wrapper{
+		h1{
+			margin-top: 90px;
+			font-family: $secondary-font;
+			font-size: 24px;
+			text-align: center;
+		}
+		h2{
+			margin-top: 25px;
+			font-family: $primary-font;
+			font-weight: bold;
+			font-size: 30px;
+			text-align: center;
+
+		}
+		
+		p{
+			margin-top: 90px;
+			font-family: $tertiary-font;
+			font-size: 15px;
+			text-align: center;
+			color: grey;
+		}
+	}
+
+	.layer{
+		
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			margin: 105px;
+			
+
+			.container {
+				position: relative;
+				margin-bottom: 50px;
+				font-size: 0;
+				height: 260px;
+				width: 390px;
+				margin-right: 30px;
+
+			}
+			  
+			.image {
+				display: block;
+				height: 260px;
+				width: 390px;
+				
+			}
+			  
+			.overlay {
+				
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				opacity: 0;
+				transition: .5s ease;
+				background-image: linear-gradient(#f48d81, #fbe389);
+			}
+			  
+			.container:hover .overlay {
+				opacity: 0.8;
+				box-shadow: 10px 10px 5px 0px #95e1d3;
+			}
+			  
+			.text {
+				color: white;
+				font-size: 18px;
+				font-family: $primary-font;
+				font-weight: bold;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				text-align: center;
+			}
+
+			.text:before{
+				content: url("../img/USERS.png");
+			}
+		
+	}
+		
+}

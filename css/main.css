@@ -87,6 +87,7 @@ section {
   max-width: 1777px;
   max-height: 1000px;
   height: 100%;
+  margin: auto;
 }
 
 .background .eagle {
@@ -141,4 +142,94 @@ section {
   width: 20px;
   height: 20px;
   cursor: pointer;
+}
+
+.story {
+  margin-top: 100px;
+}
+
+.story .wrapper h1 {
+  margin-top: 90px;
+  font-family: "Kaushan Script", cursive;
+  font-size: 24px;
+  text-align: center;
+}
+
+.story .wrapper h2 {
+  margin-top: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+.story .wrapper p {
+  margin-top: 90px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  text-align: center;
+  color: grey;
+}
+
+.story .layer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 105px;
+}
+
+.story .layer .container {
+  position: relative;
+  margin-bottom: 50px;
+  font-size: 0;
+  height: 260px;
+  width: 390px;
+  margin-right: 30px;
+}
+
+.story .layer .image {
+  display: block;
+  height: 260px;
+  width: 390px;
+}
+
+.story .layer .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f48d81), to(#fbe389));
+  background-image: linear-gradient(#f48d81, #fbe389);
+}
+
+.story .layer .container:hover .overlay {
+  opacity: 0.8;
+  -webkit-box-shadow: 10px 10px 5px 0px #95e1d3;
+          box-shadow: 10px 10px 5px 0px #95e1d3;
+}
+
+.story .layer .text {
+  color: white;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.story .layer .text:before {
+  content: url("../img/USERS.png");
 }
