@@ -18,62 +18,82 @@
 			font-weight: bold;
 			color: white;
 			margin-top: 40px;
+			@include mq(0, 1000px) {
+				margin-left: 50px;
+			}
 		}
 
 		#myLinks{
-			
+
 			display: flex;
-			a{	
-				z-index:2;
-				text-decoration: none;
-				color: white;
-				font-family: $primary-font;
-				font-size: 16px;
-				margin-right: 30px;
+
+			#navLinks{
 				margin-top: 50px;
-			}
+				display: flex;
+				
 
-			@include mq(0, 1000px) {
+				.links{
+					display: block;
+					z-index:2;
+					text-decoration: none;
+					color: white;
+					font-family: $primary-font;
+					font-size: 16px;
+					margin-right: 30px;
+					@include mq(0, 1000px) {
+						display: none;
+						line-height: 3;
+					}
+				}			
+				@include mq(0, 1000px) {
+					display: block;
+				}	
+				
+			}
+	
+
+			#hmenu{
 				display: none;
+				margin-top: 45px;
+				
+				div{
+					width: 35px;
+					height: 5px;
+					background-color: white;
+					margin: 6px 0;
+					cursor: pointer;
+				}
+				@include mq(0, 1000px) {
+					display: block;
+					margin-right: 50px;
+				}
 			}
-		}
 
-		.hmenu{
-			display: none;
-			margin-top: 45px;
-			div {
-				width: 35px;
-				height: 5px;
-				background-color: white;
-				margin: 6px 0;
-			}
-			@include mq(0, 1000px) {
-				display: block;
-				margin-right: 45px;
-			}
-		}
-		
-		.images{
-			z-index:2;
-			div{
+			
+			.icons{
 				margin-top: 50px;
 				margin-left: 35px;
 				float:left;
 				margin-right:5px;
-
-				.img{
-					
+	
+				.img{	
 					width: 20px;
 					height: 20px;
 					cursor: pointer;
 				}
-				
-			}
-			@include mq(0, 1000px) {
-				display: none;
+					
+				@include mq(0, 1000px) {
+					display: none;
+					margin-left: 0;
+				}
+	
 			}
 
 		}
+
+		
+		
+		
 
 	}
 

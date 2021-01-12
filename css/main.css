@@ -108,67 +108,85 @@ section {
   margin-top: 40px;
 }
 
+@media (min-width: 0) and (max-width: 1000px) {
+  .background .wrapper .logo {
+    margin-left: 50px;
+  }
+}
+
 .background .wrapper #myLinks {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.background .wrapper #myLinks a {
+.background .wrapper #myLinks #navLinks {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.background .wrapper #myLinks #navLinks .links {
+  display: block;
   z-index: 2;
   text-decoration: none;
   color: white;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   margin-right: 30px;
-  margin-top: 50px;
 }
 
 @media (min-width: 0) and (max-width: 1000px) {
-  .background .wrapper #myLinks {
+  .background .wrapper #myLinks #navLinks .links {
     display: none;
+    line-height: 3;
   }
 }
 
-.background .wrapper .hmenu {
+@media (min-width: 0) and (max-width: 1000px) {
+  .background .wrapper #myLinks #navLinks {
+    display: block;
+  }
+}
+
+.background .wrapper #myLinks #hmenu {
   display: none;
   margin-top: 45px;
 }
 
-.background .wrapper .hmenu div {
+.background .wrapper #myLinks #hmenu div {
   width: 35px;
   height: 5px;
   background-color: white;
   margin: 6px 0;
+  cursor: pointer;
 }
 
 @media (min-width: 0) and (max-width: 1000px) {
-  .background .wrapper .hmenu {
+  .background .wrapper #myLinks #hmenu {
     display: block;
-    margin-right: 45px;
+    margin-right: 50px;
   }
 }
 
-.background .wrapper .images {
-  z-index: 2;
-}
-
-.background .wrapper .images div {
+.background .wrapper #myLinks .icons {
   margin-top: 50px;
   margin-left: 35px;
   float: left;
   margin-right: 5px;
 }
 
-.background .wrapper .images div .img {
+.background .wrapper #myLinks .icons .img {
   width: 20px;
   height: 20px;
   cursor: pointer;
 }
 
 @media (min-width: 0) and (max-width: 1000px) {
-  .background .wrapper .images {
+  .background .wrapper #myLinks .icons {
     display: none;
+    margin-left: 0;
   }
 }
 
