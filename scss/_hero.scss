@@ -24,13 +24,12 @@
 		}
 
 		#myLinks{
-
 			display: flex;
 
 			#navLinks{
 				margin-top: 50px;
 				display: flex;
-				
+				position: relative;
 
 				.links{
 					display: block;
@@ -112,6 +111,9 @@
 			@include mq(0, 1000px) {
 				font-size: 35px;
 			}
+			@include mq(0, 500px) {
+				font-size: 25px;
+			}
 		}
 
 		h2{
@@ -124,6 +126,9 @@
 			text-align: center;
 			@include mq(0, 1000px) {
 				font-size: 75px;
+			}
+			@include mq(0, 500px) {
+				font-size: 55px;
 			}
 		}
 		

@@ -125,6 +125,7 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
 }
 
 .background .wrapper #myLinks #navLinks .links {
@@ -212,6 +213,12 @@ section {
   }
 }
 
+@media (min-width: 0) and (max-width: 500px) {
+  .background .element h1 {
+    font-size: 25px;
+  }
+}
+
 .background .element h2 {
   margin-top: 55px;
   margin-bottom: 55px;
@@ -225,6 +232,12 @@ section {
 @media (min-width: 0) and (max-width: 1000px) {
   .background .element h2 {
     font-size: 75px;
+  }
+}
+
+@media (min-width: 0) and (max-width: 500px) {
+  .background .element h2 {
+    font-size: 55px;
   }
 }
 
