@@ -80,26 +80,39 @@ section {
   margin: 0 auto;
 }
 
-.background {
+@media (min-width: 0) and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+.nav-active {
+  -webkit-transform: translateX(0%) !important;
+          transform: translateX(0%) !important;
+}
+
+nav {
   position: relative;
   width: auto;
   height: 100%;
-  margin: auto;
   background-image: url("../img/eagle.png");
   background-size: cover;
   background-position: center center;
 }
 
-.background .wrapper {
+nav .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 8vh;
 }
 
-.background .wrapper .logo {
+nav .wrapper .logo {
   z-index: 2;
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
@@ -108,63 +121,86 @@ section {
   margin-top: 40px;
 }
 
-@media (min-width: 0) and (max-width: 1000px) {
-  .background .wrapper .logo {
+@media (min-width: 0) and (max-width: 1024px) {
+  nav .wrapper .logo {
     margin-left: 50px;
   }
 }
 
-.background .wrapper #myLinks .navbar {
-  margin-top: 50px;
-  position: relative;
+nav .wrapper .navlinks {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  z-index: 1000;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 50%;
+  margin-top: 60px;
 }
 
-.background .wrapper #myLinks .navbar .menuLink {
-  display: block;
-  z-index: 1000;
-  text-decoration: none;
+nav .wrapper .navlinks li {
+  list-style: none;
+}
+
+nav .wrapper .navlinks li a {
   color: white;
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
-  margin-right: 30px;
 }
 
-@media (min-width: 0) and (max-width: 1000px) {
-  .background .wrapper #myLinks .navbar .menuLink {
-    display: none;
-    line-height: 3;
-    text-align: right;
-    background-color: #ddd7c0;
+@media (min-width: 769px) and (max-width: 1024px) {
+  nav .wrapper .navlinks {
+    width: 70%;
   }
 }
 
-.background .wrapper #myLinks .hmenu {
+@media (min-width: 0) and (max-width: 768px) {
+  nav .wrapper .navlinks {
+    position: absolute;
+    z-index: 1000;
+    right: 0px;
+    height: 50vh;
+    top: 4vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 20%;
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+    -webkit-transition: -webkit-transform 0.5s ease-in;
+    transition: -webkit-transform 0.5s ease-in;
+    transition: transform 0.5s ease-in;
+    transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
+  }
+}
+
+nav .wrapper .burger {
   display: none;
   cursor: pointer;
   margin-top: 45px;
   margin-left: 10vh;
 }
 
-.background .wrapper #myLinks .hmenu div {
+nav .wrapper .burger div {
   width: 35px;
   height: 5px;
   background-color: white;
   margin: 6px 0;
-  cursor: pointer;
 }
 
-@media (min-width: 0) and (max-width: 1000px) {
-  .background .wrapper #myLinks .hmenu {
+@media (min-width: 0) and (max-width: 768px) {
+  nav .wrapper .burger {
     display: block;
-    margin-right: 50px;
   }
 }
 
-.background .element {
+.element {
   position: absolute;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -173,7 +209,7 @@ section {
   text-align: center;
 }
 
-.background .element h1 {
+.element h1 {
   font-family: "Kaushan Script", cursive;
   font-size: 72px;
   color: white;
@@ -181,18 +217,18 @@ section {
 }
 
 @media (min-width: 0) and (max-width: 1000px) {
-  .background .element h1 {
+  .element h1 {
     font-size: 35px;
   }
 }
 
 @media (min-width: 0) and (max-width: 500px) {
-  .background .element h1 {
+  .element h1 {
     font-size: 25px;
   }
 }
 
-.background .element h2 {
+.element h2 {
   margin-top: 55px;
   margin-bottom: 55px;
   font-family: "Montserrat", sans-serif;
@@ -203,18 +239,18 @@ section {
 }
 
 @media (min-width: 0) and (max-width: 1000px) {
-  .background .element h2 {
+  .element h2 {
     font-size: 75px;
   }
 }
 
 @media (min-width: 0) and (max-width: 500px) {
-  .background .element h2 {
+  .element h2 {
     font-size: 55px;
   }
 }
 
-.background .element .button {
+.element .button {
   text-align: center;
   color: white;
   padding: 20px;
