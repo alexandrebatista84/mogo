@@ -86,11 +86,6 @@ section {
   }
 }
 
-.nav-active {
-  -webkit-transform: translateX(0%) !important;
-          transform: translateX(0%) !important;
-}
-
 nav {
   position: relative;
   width: auto;
@@ -177,6 +172,10 @@ nav .wrapper .navlinks li a {
     transition: -webkit-transform 0.5s ease-in;
     transition: transform 0.5s ease-in;
     transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
+  }
+  nav .wrapper .navlinks.nav-active {
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
   }
 }
 
