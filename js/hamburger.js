@@ -1,11 +1,9 @@
-
-
 function hamburgerfunction()
 {
 
-    var x = document.querySelectorAll('.links');
-    var y = document.querySelectorAll('.icons');
-    var z = document.querySelectorAll('#myLinks');
+    var x = document.querySelectorAll('.menuLink');
+    var y = document.querySelectorAll('.navbar');
+    var z = document.querySelectorAll('.myLinks');
     var i=0;
 
     for(i=0;i<x.length;i++)

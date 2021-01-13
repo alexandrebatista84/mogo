@@ -24,37 +24,37 @@
 		}
 
 		#myLinks{
-			display: flex;
-
-			#navLinks{
+			
+			.navbar{
 				margin-top: 50px;
-				display: flex;
 				position: relative;
-
-				.links{
+				display: flex;
+				z-index: 1000;
+				.menuLink{
 					display: block;
-					z-index:2;
+					z-index:1000;
 					text-decoration: none;
 					color: white;
 					font-family: $primary-font;
 					font-size: 16px;
 					margin-right: 30px;
-					@include mq(0, 1000px) {
+					@include mq(0, 1000px){
 						display: none;
 						line-height: 3;
+						text-align: right;
+						background-color:  #ddd7c0;
 					}
-				}			
-				@include mq(0, 1000px) {
-					display: block;
-				}	
+				}
+				
 				
 			}
-	
 
-			#hmenu{
+			.hmenu{
 				display: none;
+				cursor: pointer;
 				margin-top: 45px;
-				
+				margin-left: 10vh;
+
 				div{
 					width: 35px;
 					height: 5px;
@@ -68,31 +68,7 @@
 				}
 			}
 
-			
-			.icons{
-				margin-top: 50px;
-				margin-left: 35px;
-				float:left;
-				margin-right:5px;
-	
-				.img{	
-					width: 20px;
-					height: 20px;
-					cursor: pointer;
-				}
-					
-				@include mq(0, 1000px) {
-					display: none;
-					margin-left: 0;
-				}
-	
-			}
-
 		}
-
-		
-		
-		
 
 	}
 
