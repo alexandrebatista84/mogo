@@ -4,7 +4,6 @@ body{
 	}
 }
 
-
 nav{
 	position: relative;
 	width: auto;
@@ -44,9 +43,6 @@ nav{
 					color: white;
 					font-family: $primary-font;				
 				}
-				@include mq(0, 768px) {
-					//opacity: 0;
-				}
 			}
 			@include mq(769px, 1024px) {
 				width: 70%;
@@ -61,7 +57,7 @@ nav{
 				flex-direction: column;
 				align-items: center;
 				width: 20%;
-				//background-color: red;
+				
 				transform: translateX(100%);
 				transition: transform 0.5s ease-in;
 				&.nav-active{
