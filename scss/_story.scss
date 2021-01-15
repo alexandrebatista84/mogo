@@ -38,8 +38,8 @@
 				position: relative;
 				margin-bottom: 50px;
 				font-size: 0;
-				height: 260px;
-				width: 390px;
+				max-height: 260px;
+				max-width: 390px;
 				margin-right: 15px;
 				margin-left: 15px;
 
@@ -47,8 +47,8 @@
 			  
 			.image {
 				display: block;
-				height: 260px;
-				width: 390px;
+				max-height: 260px;
+				max-width: 390px;
 				
 			}
 			  
@@ -86,5 +86,5 @@
 			}
 		
 	}
-		
+	
 }

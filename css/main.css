@@ -152,7 +152,7 @@ nav .wrapper .navlinks li a {
   nav .wrapper .navlinks {
     position: absolute;
     z-index: 1000;
-    right: 0px;
+    right: 0;
     height: 50vh;
     top: 4vh;
     display: -webkit-box;
@@ -215,7 +215,7 @@ nav .wrapper .burger div {
   text-align: center;
 }
 
-@media (min-width: 0) and (max-width: 1000px) {
+@media (min-width: 500px) and (max-width: 1000px) {
   .element h1 {
     font-size: 35px;
   }
@@ -245,7 +245,7 @@ nav .wrapper .burger div {
 
 @media (min-width: 0) and (max-width: 500px) {
   .element h2 {
-    font-size: 55px;
+    font-size: 35px;
   }
 }
 
@@ -302,16 +302,16 @@ nav .wrapper .burger div {
   position: relative;
   margin-bottom: 50px;
   font-size: 0;
-  height: 260px;
-  width: 390px;
+  max-height: 260px;
+  max-width: 390px;
   margin-right: 15px;
   margin-left: 15px;
 }
 
 .story .layer .image {
   display: block;
-  height: 260px;
-  width: 390px;
+  max-height: 260px;
+  max-width: 390px;
 }
 
 .story .layer .overlay {
