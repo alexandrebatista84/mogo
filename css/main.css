@@ -439,6 +439,7 @@ nav .wrapper .burger div {
       -ms-flex-align: center;
           align-items: center;
   margin: 10px 10px 10px 10px;
+  background-color: brown;
 }
 
 .services .wrapper .boxes .container img {
@@ -446,11 +447,14 @@ nav .wrapper .burger div {
   height: 35px;
 }
 
+.services .wrapper .boxes .container .text {
+  margin-left: 20px;
+}
+
 .services .wrapper .boxes .container .text h3 {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   color: black;
-  margin-left: 20px;
   margin-bottom: 20px;
 }
 
@@ -458,5 +462,4 @@ nav .wrapper .burger div {
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   color: gray;
-  margin-left: 20px;
 }
