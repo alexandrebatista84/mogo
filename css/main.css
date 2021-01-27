@@ -439,7 +439,6 @@ nav .wrapper .burger div {
       -ms-flex-align: center;
           align-items: center;
   margin: 10px 10px 10px 10px;
-  background-color: brown;
 }
 
 .services .wrapper .boxes .container img {
@@ -462,4 +461,126 @@ nav .wrapper .burger div {
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   color: gray;
+}
+
+.uniquedesign {
+  width: auto;
+  height: 100%;
+  position: relative;
+  background-image: url("../img/eagle.png");
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 200px;
+  margin-top: 200px;
+  height: 850px;
+  overflow: hidden;
+}
+
+.uniquedesign h1 {
+  margin-top: 90px;
+  font-family: "Kaushan Script", cursive;
+  font-size: 24px;
+  text-align: center;
+}
+
+.uniquedesign h2 {
+  margin-top: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+.uniquedesign .images .img1 {
+  position: absolute;
+  z-index: 1;
+  width: 466px;
+  left: 50%;
+  bottom: -300px;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+.uniquedesign .images .img2 {
+  position: absolute;
+  z-index: 1000;
+  overflow: visible;
+  width: 280px;
+  height: 433px;
+  left: 55%;
+  bottom: -100px;
+}
+
+.service h1 {
+  margin-top: 90px;
+  font-family: "Kaushan Script", cursive;
+  font-size: 24px;
+  text-align: center;
+}
+
+.service h2 {
+  margin-top: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+.service .rectangle {
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.service .wrapper p {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: grey;
+  margin-bottom: 200px;
+}
+
+.service .section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.service .section img {
+  max-width: 100%;
+}
+
+.service .section #accordion {
+  width: 600px;
+  margin-left: 100px;
+}
+
+.service .section #accordion h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  background-color: white;
+  color: black;
+}
+
+.service .section #accordion h3::before {
+  content: url("../img/PICTURE.png");
+}
+
+.service .section #accordion p {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  color: grey;
 }

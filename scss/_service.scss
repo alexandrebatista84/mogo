@@ -1,0 +1,73 @@
+.service{
+	
+	
+	h1{
+		margin-top: 90px;
+		font-family: $secondary-font;
+		font-size: 24px;
+		text-align: center;
+			
+	}
+		
+	h2{
+		margin-top: 25px;
+		font-family: $primary-font;
+		font-weight: bold;
+		font-size: 30px;
+		text-align: center;
+    }
+
+    .rectangle{
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        margin-top: 45px;
+        margin-bottom: 45px;
+        justify-content: center;
+    }   
+
+    .wrapper{
+        p{
+            font-size: 15px;
+            font-family: $tertiary-font;
+            text-align: center;
+            color: grey;
+            margin-bottom: 200px;
+        }
+
+    }
+
+    .section{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        img{
+            max-width: 100%;
+        }
+        
+        #accordion{
+            width: 600px;
+            margin-left: 100px;
+            
+
+            h3{
+                font-family: $primary-font;
+                font-size: 14px;
+                background-color: white;
+                color:black;
+            }
+
+            h3::before{
+                content: url("../img/PICTURE.png");
+            }
+
+            p{
+                font-family: $tertiary-font;
+                font-size: 15px;
+                font-style: italic;
+                color: grey;
+            }
+        }
+    }
+}

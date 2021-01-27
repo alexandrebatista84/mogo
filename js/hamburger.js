@@ -9,3 +9,9 @@ const navSlide = () => {
 } 
 
 navSlide();
+
+
+$( function() {
+    $( "#accordion" ).accordion();
+} );
+ 
