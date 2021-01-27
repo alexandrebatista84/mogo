@@ -1,0 +1,28 @@
+.carrousel{
+	div{
+		//display: flex;
+		//justify-content: space-between;
+
+		.text{
+			display: block;
+			background-color: red;
+			h1{
+				margin-top: 90px;
+				font-family: $tertiary-font;
+				font-size: 24px;
+				font-style: italic;
+				text-align: center;
+					
+			}
+				
+			h2{
+				margin-top: 24px;
+				font-family: $secondary-font;
+				font-weight: bold;
+				font-size: 30px;
+				text-align: center;
+			}
+		}
+
+	}
+}	

@@ -640,3 +640,24 @@ nav .wrapper .burger div {
     margin-top: 100px;
   }
 }
+
+.carrousel div .text {
+  display: block;
+  background-color: red;
+}
+
+.carrousel div .text h1 {
+  margin-top: 90px;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-style: italic;
+  text-align: center;
+}
+
+.carrousel div .text h2 {
+  margin-top: 24px;
+  font-family: "Kaushan Script", cursive;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}

@@ -10,8 +10,11 @@ const navSlide = () => {
 
 navSlide();
 
-
 $( function() {
-    $( "#accordion" ).accordion();
+    $("#accordion").accordion();
+} );
+
+$( function(){
+    $('.carrousel').slick();
 } );
  
