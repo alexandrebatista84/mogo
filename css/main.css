@@ -560,11 +560,20 @@ nav .wrapper .burger div {
 
 .service .section img {
   max-width: 100%;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+@media (min-width: 0) and (max-width: 1280px) {
+  .service .section img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+  }
 }
 
 .service .section #accordion {
   width: 600px;
-  margin-left: 100px;
 }
 
 .service .section #accordion h3 {
@@ -583,4 +592,12 @@ nav .wrapper .burger div {
   font-size: 15px;
   font-style: italic;
   color: grey;
+}
+
+@media (min-width: 0) and (max-width: 1280px) {
+  .service .section #accordion {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+  }
 }

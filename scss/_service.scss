@@ -44,12 +44,18 @@
 
         img{
             max-width: 100%;
+            margin-left: 100px;
+            margin-right: 100px;
+
+            @include mq(0, 1280px) {
+				margin-left: auto;
+                margin-right: auto;
+                margin-top: 100px;
+			}
         }
         
         #accordion{
-            width: 600px;
-            margin-left: 100px;
-            
+            width: 600px;      
 
             h3{
                 font-family: $primary-font;
@@ -68,6 +74,12 @@
                 font-style: italic;
                 color: grey;
             }
+
+            @include mq(0, 1280px) {
+				margin-left: auto;
+                margin-right: auto;
+                margin-top: 100px;
+			}
         }
     }
 }
