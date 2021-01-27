@@ -275,6 +275,19 @@ nav .wrapper .burger div {
   text-align: center;
 }
 
+.story .wrapper .rectangle {
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .story .wrapper p {
   margin-top: 90px;
   font-family: "Roboto", sans-serif;
@@ -399,14 +412,14 @@ nav .wrapper .burger div {
   }
 }
 
-.services .wrapper h1 {
+.amazingservices .wrapper h1 {
   margin-top: 90px;
   font-family: "Kaushan Script", cursive;
   font-size: 24px;
   text-align: center;
 }
 
-.services .wrapper h2 {
+.amazingservices .wrapper h2 {
   margin-top: 25px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
@@ -414,7 +427,20 @@ nav .wrapper .burger div {
   text-align: center;
 }
 
-.services .wrapper .boxes {
+.amazingservices .wrapper .rectangle {
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.amazingservices .wrapper .boxes {
   margin-top: 110px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -429,7 +455,7 @@ nav .wrapper .burger div {
   width: 100%;
 }
 
-.services .wrapper .boxes .container {
+.amazingservices .wrapper .boxes .container {
   max-width: 30%;
   height: 150px;
   display: -webkit-box;
@@ -441,23 +467,23 @@ nav .wrapper .burger div {
   margin: 10px 10px 10px 10px;
 }
 
-.services .wrapper .boxes .container img {
+.amazingservices .wrapper .boxes .container img {
   width: 35px;
   height: 35px;
 }
 
-.services .wrapper .boxes .container .text {
+.amazingservices .wrapper .boxes .container .text {
   margin-left: 20px;
 }
 
-.services .wrapper .boxes .container .text h3 {
+.amazingservices .wrapper .boxes .container .text h3 {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
   color: black;
   margin-bottom: 20px;
 }
 
-.services .wrapper .boxes .container .text h4 {
+.amazingservices .wrapper .boxes .container .text h4 {
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   color: gray;
@@ -489,6 +515,19 @@ nav .wrapper .burger div {
   font-weight: bold;
   font-size: 30px;
   text-align: center;
+}
+
+.uniquedesign .rectangle {
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .uniquedesign .images .img1 {
