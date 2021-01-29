@@ -16,5 +16,6 @@ $( function() {
 
 $( function(){
     $('.carrousel').slick();
+
 } );
  
