@@ -1,6 +1,6 @@
 .contentor{
 	position: relative;
-	
+
 	.uniquedesign{
 		width: auto;
 		height: 100%;
@@ -54,11 +54,9 @@
 	.img2{
 		position: absolute;
 		z-index: 1000;
-		overflow: visible;
 		width: 280px;
 		height: 433px;
 		left: 55%;
-		bottom: -100px;
-		//transform: translate(-50%);		
+		bottom: -100px;	
 	}
 }
