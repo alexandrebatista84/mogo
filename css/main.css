@@ -587,6 +587,10 @@ nav .wrapper .burger div {
           justify-content: center;
 }
 
+.service .wrapper {
+  margin-bottom: 100px;
+}
+
 .service .wrapper p {
   font-size: 15px;
   font-family: "Roboto", sans-serif;
@@ -615,7 +619,6 @@ nav .wrapper .burger div {
   .service .section img {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
   }
 }
 
@@ -645,7 +648,7 @@ nav .wrapper .burger div {
   .service .section #accordion {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: 50px;
   }
 }
 
