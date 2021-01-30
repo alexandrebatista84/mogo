@@ -472,9 +472,24 @@ nav .wrapper .burger div {
   margin: 10px 10px 10px 10px;
 }
 
+@media (min-width: 0) and (max-width: 1280px) {
+  .amazingservices .wrapper .boxes .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .amazingservices .wrapper .boxes .container img {
   width: 35px;
   height: 35px;
+}
+
+@media (min-width: 0) and (max-width: 1280px) {
+  .amazingservices .wrapper .boxes .container img {
+    margin-bottom: 20px;
+  }
 }
 
 .amazingservices .wrapper .boxes .container .text {

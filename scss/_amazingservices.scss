@@ -45,9 +45,15 @@
 				margin: 10px 10px 10px 10px;
 				//background-color: brown;
 				
+				@include mq(0, 1280px) {
+					flex-direction: column;	
+				}
 				img{
 					width: 35px;
 					height: 35px;
+					@include mq(0, 1280px) {
+						margin-bottom: 20px;		
+					}
 				}
 
 				.text{
@@ -63,7 +69,7 @@
 						font-family: $tertiary-font;
 						font-size: 15px;
 						color: gray;	
-												
+																	
 					}
 				}
 			}
