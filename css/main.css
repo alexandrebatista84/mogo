@@ -498,6 +498,7 @@ nav .wrapper .burger div {
   position: relative;
   overflow: hidden;
   height: 950px;
+  margin-bottom: 100px;
 }
 
 .contentor .uniquedesign {
@@ -560,7 +561,6 @@ nav .wrapper .burger div {
 }
 
 .service h1 {
-  margin-top: 90px;
   font-family: "Kaushan Script", cursive;
   font-size: 24px;
   text-align: center;
@@ -592,7 +592,6 @@ nav .wrapper .burger div {
   font-family: "Roboto", sans-serif;
   text-align: center;
   color: grey;
-  margin-bottom: 200px;
 }
 
 .service .section {
