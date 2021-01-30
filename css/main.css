@@ -489,7 +489,11 @@ nav .wrapper .burger div {
   color: gray;
 }
 
-.uniquedesign {
+.contentor {
+  position: relative;
+}
+
+.contentor .uniquedesign {
   width: auto;
   height: 100%;
   position: relative;
@@ -502,14 +506,14 @@ nav .wrapper .burger div {
   overflow: hidden;
 }
 
-.uniquedesign h1 {
+.contentor .uniquedesign h1 {
   margin-top: 90px;
   font-family: "Kaushan Script", cursive;
   font-size: 24px;
   text-align: center;
 }
 
-.uniquedesign h2 {
+.contentor .uniquedesign h2 {
   margin-top: 25px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
@@ -517,7 +521,7 @@ nav .wrapper .burger div {
   text-align: center;
 }
 
-.uniquedesign .rectangle {
+.contentor .uniquedesign .rectangle {
   margin-left: auto;
   margin-right: auto;
   display: -webkit-box;
@@ -530,7 +534,7 @@ nav .wrapper .burger div {
           justify-content: center;
 }
 
-.uniquedesign .images .img1 {
+.contentor .uniquedesign .images .img1 {
   position: absolute;
   z-index: 1;
   width: 466px;
@@ -540,7 +544,7 @@ nav .wrapper .burger div {
           transform: translate(-50%);
 }
 
-.uniquedesign .images .img2 {
+.contentor .img2 {
   position: absolute;
   z-index: 1000;
   overflow: visible;

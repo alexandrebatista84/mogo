@@ -1,62 +1,64 @@
-.uniquedesign{
-	width: auto;
-	height: 100%;
+.contentor{
 	position: relative;
-	background-image: url("../img/eagle.png");
-	background-size: cover;
-	background-position: center center;
-	margin-bottom: 200px;
-	margin-top: 200px;
-	height: 850px;
-	overflow: hidden;
 	
-	h1{
-		margin-top: 90px;
-		font-family: $secondary-font;
-		font-size: 24px;
-		text-align: center;
+	.uniquedesign{
+		width: auto;
+		height: 100%;
+		position: relative;
+		background-image: url("../img/eagle.png");
+		background-size: cover;
+		background-position: center center;
+		margin-bottom: 200px;
+		margin-top: 200px;
+		height: 850px;
+		overflow: hidden;
+		
+		h1{
+			margin-top: 90px;
+			font-family: $secondary-font;
+			font-size: 24px;
+			text-align: center;
+				
+		}
 			
-	}
-		
-	h2{
-		margin-top: 25px;
-		font-family: $primary-font;
-		font-weight: bold;
-		font-size: 30px;
-		text-align: center;
-	}
-
-	.rectangle{
-        margin-left: auto;
-        margin-right: auto;
-        display: flex;
-        margin-top: 45px;
-        margin-bottom: 45px;
-        justify-content: center;
-    }   
-		
-	.images{
-
-		.img1{
-			position: absolute;
-			z-index: 1;
-			width: 466px;
-			left: 50%;
-			bottom: -300px;
-			transform: translate(-50%);	
+		h2{
+			margin-top: 25px;
+			font-family: $primary-font;
+			font-weight: bold;
+			font-size: 30px;
+			text-align: center;
 		}
 
-		.img2{
-			position: absolute;
-			z-index: 1000;
-			overflow: visible;
-			width: 280px;
-			height: 433px;
-			left: 55%;
-			bottom: -100px;
-			//transform: translate(-50%);		
-		}
+		.rectangle{
+			margin-left: auto;
+			margin-right: auto;
+			display: flex;
+			margin-top: 45px;
+			margin-bottom: 45px;
+			justify-content: center;
+		}   
+			
+		.images{
 
+			.img1{
+				position: absolute;
+				z-index: 1;
+				width: 466px;
+				left: 50%;
+				bottom: -300px;
+				transform: translate(-50%);	
+			}
+		}
+		
 	}
-	
+	.img2{
+		position: absolute;
+		z-index: 1000;
+		overflow: visible;
+		width: 280px;
+		height: 433px;
+		left: 55%;
+		bottom: -100px;
+		//transform: translate(-50%);		
+	}
 }
