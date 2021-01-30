@@ -702,3 +702,11 @@ nav .wrapper .burger div {
 .slick-next:before {
   color: grey;
 }
+
+.slick-prev {
+  left: 20px;
+}
+
+.slick-next {
+  right: 20px;
+}
