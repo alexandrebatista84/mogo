@@ -502,12 +502,6 @@ nav .wrapper .burger div {
   margin-bottom: 20px;
 }
 
-@media (min-width: 0) and (max-width: 1280px) {
-  .amazingservices .wrapper .boxes .container .text h3 {
-    text-align: center;
-  }
-}
-
 .amazingservices .wrapper .boxes .container .text h4 {
   font-family: "Roboto", sans-serif;
   font-size: 15px;
@@ -515,8 +509,9 @@ nav .wrapper .burger div {
 }
 
 @media (min-width: 0) and (max-width: 1280px) {
-  .amazingservices .wrapper .boxes .container .text h4 {
+  .amazingservices .wrapper .boxes .container .text {
     text-align: center;
+    margin-left: 0px;
   }
 }
 
