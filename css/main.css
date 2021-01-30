@@ -491,6 +491,8 @@ nav .wrapper .burger div {
 
 .contentor {
   position: relative;
+  overflow-x: hidden;
+  height: 1050px;
 }
 
 .contentor .uniquedesign {
