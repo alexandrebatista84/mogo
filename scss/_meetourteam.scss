@@ -1,0 +1,90 @@
+.meetourteam{
+	   
+    h1{
+		
+		font-family: $secondary-font;
+		font-size: 24px;
+		text-align: center;
+			
+	}
+		
+	h2{
+		margin-top: 25px;
+		font-family: $primary-font;
+		font-weight: bold;
+		font-size: 30px;
+		text-align: center;
+    }
+
+    .rectangle{
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        margin-top: 45px;
+        margin-bottom: 45px;
+        justify-content: center;
+    }   
+
+    .wrapper{
+        margin-bottom: 100px;
+        p{
+            font-size: 15px;
+            font-family: $tertiary-font;
+            text-align: center;
+            color: grey;
+            
+        }
+    }
+    
+    .wrapper{
+        .threeimages{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            
+            .component{
+                margin-left: auto;
+                margin-right: auto; 
+                
+                .img-content{
+                    position: relative;
+                    margin-bottom: 30px;
+
+                    .img-overlay {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        height: 100%;
+                        width: 100%;
+                        background: linear-gradient(#f48d81, #fbe389);
+                        opacity: 0;
+                        transition: .5s ease;
+                    }
+
+                    
+                    &:hover {
+                        .img-overlay {
+                            opacity: .8;
+                            box-shadow: 10px 10px 5px 0px #95e1d3;
+                        }
+                    }
+                }
+
+                h3{
+                    font-family: $primary-font;
+                    font-size: 14px;
+                    text-align: center;
+                    margin-bottom: 10px;
+                }
+                h4{
+                    font-family: $tertiary-font;
+                    font-size: 15px;
+                    font-style: italic;
+                    text-align: center;
+                }
+
+            }
+        }
+    }
+
+}

@@ -581,6 +581,10 @@ nav .wrapper .burger div {
   bottom: 0px;
 }
 
+.service {
+  margin-bottom: 100px;
+}
+
 .service h1 {
   font-family: "Kaushan Script", cursive;
   font-size: 24px;
@@ -675,7 +679,7 @@ nav .wrapper .burger div {
 
 .section2 {
   background-color: #f8f8f8;
-  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .section2 .wrapper .carrousel div {
@@ -700,6 +704,7 @@ nav .wrapper .burger div {
 .section2 .wrapper .carrousel div .text {
   display: block;
   max-width: 770px;
+  margin-bottom: 50px;
 }
 
 .section2 .wrapper .carrousel div .text h1 {
@@ -732,4 +737,96 @@ nav .wrapper .burger div {
 
 .slick-next {
   right: 20px;
+}
+
+.meetourteam h1 {
+  font-family: "Kaushan Script", cursive;
+  font-size: 24px;
+  text-align: center;
+}
+
+.meetourteam h2 {
+  margin-top: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+.meetourteam .rectangle {
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 45px;
+  margin-bottom: 45px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.meetourteam .wrapper {
+  margin-bottom: 100px;
+}
+
+.meetourteam .wrapper p {
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: grey;
+}
+
+.meetourteam .wrapper .threeimages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.meetourteam .wrapper .threeimages .component {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.meetourteam .wrapper .threeimages .component .img-content {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.meetourteam .wrapper .threeimages .component .img-content .img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f48d81), to(#fbe389));
+  background: linear-gradient(#f48d81, #fbe389);
+  opacity: 0;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+
+.meetourteam .wrapper .threeimages .component .img-content:hover .img-overlay {
+  opacity: .8;
+  -webkit-box-shadow: 10px 10px 5px 0px #95e1d3;
+          box-shadow: 10px 10px 5px 0px #95e1d3;
+}
+
+.meetourteam .wrapper .threeimages .component h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.meetourteam .wrapper .threeimages .component h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  text-align: center;
 }
